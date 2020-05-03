@@ -1,4 +1,4 @@
-# Mark McDonald's Porfolio
+# Mark McDonald's Portfolio
 
 OBJECTIVE: Building my skills as a Software Developer living and learning full stack development.
 
