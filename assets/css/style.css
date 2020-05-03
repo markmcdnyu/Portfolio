@@ -1,0 +1,37 @@
+body {
+    min-height: 400px;
+    margin-bottom: 400px;
+    clear: both;
+    background-color: #fdf6e3;
+}
+
+nav {
+    background-color: #073642;
+}
+
+.foundation {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background-blur-bokeh-close-up-1044990.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.foundationportfolio {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/abstract-architect-architectural-design-art-323645.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.foundationcontact {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/photo-of-orange-yellow-and-red-hello-molding-clay-954599.jpg");
+    background-size: cover;
+    background-position: center;
+}
