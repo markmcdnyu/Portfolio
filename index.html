@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Bootstrap and CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Home Page | Mark McDonald | Software Developer</title>
 </head>
+
 <body>
-    
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top py-0 sticky-top">
+            <div class="container">
+                <a class="navbar-brand px-2" href="index.html">
+                    <h1 class="mb-0" >Mark McDonald</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold text-hover" href="index.html">About</a>
+                            <!--this is the index page-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            <!-- this this the bio section -->
+    <section class="container mt-4 rounded">
+        <div class="row">
+            <div class="col-12 col-md-12 text-center">
+                <h1 class="text-left">About me</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <img class="img-fluid float-left mr-3 mb-2" src="https://media-exp1.licdn.com/dms/image/C4E03AQFzZw0-8BLutg/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=hx8tvmxaKvcbycbEl_il28reE4AFHCBwrI7lSJwJ4yE" alt="Responsive image">
+                <p>I am a Software Developer living and working in Austin, Texas. 
+                    (There is more to come in this section......need to add)
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer fixed-bottom mb-0 py-2 bg-dark">
+        <div class="container text-center">
+            <span class="text-muted ">2020 Mark McDonald &copy;</span>
+        </div>
+    </footer>
 </body>
 </html>
