@@ -35,3 +35,35 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
+.article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #073642;
+    color: #ffffff;
+}
+
+.rockPaper img {
+    max-height: 200px;
+    padding: 10px;
+}
+
+.comingSoon img {
+    max-height: 200px;
+}
+
+
+.rockPaper h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.comingSoon h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
