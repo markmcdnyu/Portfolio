@@ -11,7 +11,7 @@ I built out this site using HTML, CSS, Bootstrap, and JavaSctipt. This site will
 ## APPLICATIONS
 Included in this portfolio are basic "prompt" and "alert" style appplications, to more advanced applications using 3rd party APIs for data. This portfolio will be continuously updated. Below are a few pictures of the apps I have built:
 
-## SpringBoard 
+## Springboard 
    travel assistant web application using Zomato, OpenWeather and Ticketmaster APIs
 <img src="assets/img/portfolio/springboard_app_screenshot.jpg" alt="travel web app picture"/>
 
